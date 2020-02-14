@@ -3,6 +3,8 @@ class Application
   def call(env)
     resp = Rack::Response.new
     # resp creates an instance with all the response methods from rack 
+    # :: namespace. lets you access items in modules ot class-level items in classes
+    # not inheritance, but access 
 
     # resp.write "Hello, World"
     # resp.finish
